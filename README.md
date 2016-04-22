@@ -31,9 +31,16 @@
 
 - Android
   * [安装jdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  ```
+  tar -xvzf jdk-8u91-linux-x64.tar.gz -C ~/dev/app/
+  ```
+  * .bashrc中设置JAVA_HOME
+  ```
+  export JAVA_HOME=~/dev/app/jdk1.8.0_91
+  export PATH=$JAVA_HOME/bin:$PATH
+  ```
   * [安装Android SDK](https://developer.android.com/sdk/installing/index.html)
   * 设置ANDROID_HOME
   ```
-  sudo vi ~/.bashrc
   export ANDROID_HOME=~/dev/app/android-sdk
   ```
