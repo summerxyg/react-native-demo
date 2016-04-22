@@ -39,7 +39,7 @@
   export JAVA_HOME=~/dev/app/jdk1.8.0_91
   export PATH=$JAVA_HOME/bin:$PATH
   ```
-  * [安装Android SDK](https://developer.android.com/sdk/installing/index.html) 国内用户点[这里](http://androiddevtools.cn/)
+  * [安装Android SDK](https://developer.android.com/sdk/installing/index.html) (国内用户点[这里](http://androiddevtools.cn/))
   * 设置ANDROID_HOME
   ```
   export ANDROID_HOME=~/dev/app/android-sdk
