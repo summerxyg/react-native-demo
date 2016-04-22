@@ -30,7 +30,8 @@
   ```
 
 - Android
-  * 安装jdk => [![传送门]](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)[]:http://summerxyg.github.io/images/portal.ico "传送门"
+  * 安装jdk => [![传送门]](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  [传送门]:http://summerxyg.github.io/images/portal.ico "传送门"
   ```
   tar -xvzf jdk-8u91-linux-x64.tar.gz -C ~/dev/app/
   ```
