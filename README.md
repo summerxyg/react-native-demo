@@ -6,7 +6,7 @@
 
 ## 安装
 
-- ![传送门](http://summerxyg.github.io/images/portal.png) [Node Version Manager](https://github.com/creationix/nvm#installation)
+- [Node Version Manager](https://github.com/creationix/nvm#installation) ![传送门](http://summerxyg.github.io/images/portal.png)
   ```
   wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
   ```
@@ -30,7 +30,7 @@
   ```
 
 - Android
-  * ![传送门](http://summerxyg.github.io/images/portal.png) [安装jdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  * [安装jdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) ![传送门](http://summerxyg.github.io/images/portal.png)
   
   ```
   tar -xvzf jdk-8u91-linux-x64.tar.gz -C ~/dev/app/
@@ -40,7 +40,7 @@
   export JAVA_HOME=~/dev/app/jdk1.8.0_91
   export PATH=$JAVA_HOME/bin:$PATH
   ```
-  * ![传送门](http://summerxyg.github.io/images/portal.png) [安装Android SDK](https://developer.android.com/sdk/installing/index.html)
+  * [安装Android SDK](https://developer.android.com/sdk/installing/index.html) ![传送门](http://summerxyg.github.io/images/portal.png)
   * 设置ANDROID_HOME
   ```
   export ANDROID_HOME=~/dev/app/android-sdk
