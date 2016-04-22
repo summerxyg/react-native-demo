@@ -28,3 +28,12 @@
   ```
   sudo apt-get install git
   ```
+
+- Android
+  * [安装jdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  * [安装Android SDK](https://developer.android.com/sdk/installing/index.html)
+  * 设置ANDROID_HOME
+  ```
+  sudo vi ~/.bashrc
+  export ANDROID_HOME=~/dev/app/android-sdk
+  ```
