@@ -41,6 +41,7 @@
   export PATH=$JAVA_HOME/bin:$PATH
   ```
   * [安装Android SDK](https://developer.android.com/sdk/installing/index.html) ![传送门](http://summerxyg.github.io/images/portal.png)
+  * 国内用户点[这里](http://androiddevtools.cn/)
   * 设置ANDROID_HOME
   ```
   export ANDROID_HOME=~/dev/app/android-sdk
