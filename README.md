@@ -6,7 +6,7 @@
 
 ## 安装
 
-- Node Version Manager(安装向导点[这里](https://github.com/creationix/nvm#installation))
+- Node Version Manager => [传送门](https://github.com/creationix/nvm#installation)
   ```
   wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
   ```
@@ -30,7 +30,7 @@
   ```
 
 - Android
-  * [安装jdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  * 安装jdk => [传送门](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   ```
   tar -xvzf jdk-8u91-linux-x64.tar.gz -C ~/dev/app/
   ```
@@ -39,7 +39,7 @@
   export JAVA_HOME=~/dev/app/jdk1.8.0_91
   export PATH=$JAVA_HOME/bin:$PATH
   ```
-  * [安装Android SDK](https://developer.android.com/sdk/installing/index.html)
+  * 安装Android SDK => [传送门](https://developer.android.com/sdk/installing/index.html)
   * 设置ANDROID_HOME
   ```
   export ANDROID_HOME=~/dev/app/android-sdk
