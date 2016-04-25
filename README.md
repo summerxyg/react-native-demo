@@ -12,16 +12,16 @@
   ```
 
 - Node
+  * 注意将npm仓库源切换到淘宝国内镜像
   ```
   nvm install node && nvm alias default node
+  npm config set registry https://registry.npm.taobao.org
+  npm config set disturl https://npm.taobao.org/dist  
   ```
 
 - React Native
-  * 注意将npm仓库源切换到淘宝国内镜像
   ```
   npm install -g react-native-cli
-  npm config set registry https://registry.npm.taobao.org
-  npm config set disturl https://npm.taobao.org/dist
   ```
 
 - Git
@@ -52,7 +52,8 @@
 
 ## 运行
 
-- 允许Android应用
+- Android
+  * 运行Android应用
   ```
   cd react-native-demo
   react-native run-android
