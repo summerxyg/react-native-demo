@@ -40,7 +40,20 @@
   export PATH=$JAVA_HOME/bin:$PATH
   ```
   * [安装Android SDK](https://developer.android.com/sdk/installing/index.html) (国内用户点[这里](http://androiddevtools.cn/))
+  ```
+  tar -xvzf android-sdk_r24.4.1_linux.tgz -C ~/dev/app/
+  ```  
   * 设置ANDROID_HOME
   ```
-  export ANDROID_HOME=~/dev/app/android-sdk
+  export ANDROID_HOME=~/dev/app/android-sdk-linux
+  ```
+  * [安装Genymotion](https://www.genymotion.com/)
+  你也可以使用Google官方模拟器
+
+## 运行
+
+- 允许Android应用
+  ```
+  cd react-native-demo
+  react-native run-android
   ```
